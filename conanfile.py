@@ -15,7 +15,7 @@ class NanoLogConan(ConanFile):
     generators = "cmake"
 
     def source(self):
-        self.run("git clone https://github.com/PlatformLab/NanoLog.git")
+        self.run("git clone https://github.com/katetsu/NanoLog.git")
         self.run("cd nanolog")
 
     def build(self):

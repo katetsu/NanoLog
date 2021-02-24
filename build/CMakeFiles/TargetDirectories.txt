@@ -1,0 +1,3 @@
+/Users/hoss/NanoLog/build/CMakeFiles/rebuild_cache.dir
+/Users/hoss/NanoLog/build/CMakeFiles/edit_cache.dir
+/Users/hoss/NanoLog/build/CMakeFiles/nanolog.dir

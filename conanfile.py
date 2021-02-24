@@ -21,7 +21,7 @@ class NanoLogConan(ConanFile):
     def build(self):
         cmake = CMake(self)
         cmake.configure(source_folder="NanoLog")
-        cmake.build()
+        cmake.build(target=nanolog)
 
     def package(self):
         self.copy("*.h", dst="include", src="NanoLog")

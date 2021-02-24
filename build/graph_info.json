@@ -1,0 +1,14 @@
+{
+ "options": [
+  [
+   "shared",
+   "False"
+  ]
+ ],
+ "root": {
+  "name": "NanoLog",
+  "version": "0.91",
+  "user": null,
+  "channel": null
+ }
+}

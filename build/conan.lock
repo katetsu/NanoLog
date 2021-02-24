@@ -1,0 +1,33 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "ref": "NanoLog/0.91",
+    "options": "shared=False",
+    "build_requires": [
+     "1",
+     "2"
+    ],
+    "path": "../conanfile.py",
+    "context": "host"
+   },
+   "1": {
+    "ref": "cmake_installer/3.15.2@conan/stable#0",
+    "options": "",
+    "package_id": "743cf0321be3152777da4d05247a66d1552e70a2",
+    "prev": "0",
+    "context": "host"
+   },
+   "2": {
+    "ref": "ninja_installer/1.9.0@bincrafters/stable#0",
+    "options": "",
+    "package_id": "743cf0321be3152777da4d05247a66d1552e70a2",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": true
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Debug\ncompiler=apple-clang\ncompiler.libcxx=libc++\ncompiler.version=11.0\nos=Macos\nos_build=Macos\n[options]\n[build_requires]\n*: cmake_installer/3.15.2@conan/stable, ninja_installer/1.9.0@bincrafters/stable\n[env]\nSDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+}
